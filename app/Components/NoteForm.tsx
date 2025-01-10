@@ -11,7 +11,6 @@ interface NoteFormProps {
   }
   
 const NoteForm: React.FC<NoteFormProps> = ({ onClose }) => {
-    const [selected, setSelected] = useState(['papaya'])
     const SendData = ()=>{
 
     }
