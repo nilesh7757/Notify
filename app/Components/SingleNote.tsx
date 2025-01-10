@@ -24,7 +24,7 @@ const SingleNote = () => {
                     <p>Card Content</p>
                 </CardContent>
                 <CardFooter>
-                    <Button disabled className='bg-red-600 hover:bg-red-700 '>Study</Button>
+                    <Button disabled className='bg-red-600 disabled:opacity-1 hover:bg-red-700 '>Study</Button>
                 </CardFooter>
             </Card>
 
