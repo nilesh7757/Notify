@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import { IoIosClose } from "react-icons/io";
 // import './NotesForm.css';
 // import { FaFontAwesome } from 'react-icons/fa6'
