@@ -3,7 +3,7 @@ import React from 'react'
 import { FaNoteSticky } from "react-icons/fa6";
 import { Button } from '@/components/ui/button';
 interface TitleProps{
-  isFormVisible:Boolean;
+  isFormVisible:boolean;
    onAddNoteClick: ()=>void;
 }
 const Title:React.FC<TitleProps> = ({onAddNoteClick}) => {
