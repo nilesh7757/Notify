@@ -1,0 +1,4 @@
+/* NoteForm.css */
+.tags-input input:focus {
+    border-color: red !important;
+}

@@ -12,10 +12,10 @@ const App = () => {
   };
   return (
     <div className='lg:w-[75vw] relative lg:h-[80vh] w-[90vw] h-[95vh]  bg-white p-2 rounded-md shadow-md lg:p-7'>
-      <Title onAddNoteClick={toggleFormVisibility}/>
+      <Title isFormVisible={isFormVisible} onAddNoteClick={toggleFormVisibility}/>
       <Categories />
       <NotesArea/>
-      {isFormVisible && <NoteForm onClose={toggleFormVisibility} />}
+      <div className={`${isFormVisible?'opacity-1':'opacity-0'}`}><NoteForm  isFormVisible={isFormVisible} onClose={toggleFormVisibility} /></div>
     </div>
   )
 }
