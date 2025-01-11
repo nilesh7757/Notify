@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { IoIosClose } from 'react-icons/io';
 import { Button } from '@/components/ui/button'
 import { TagsInput } from "react-tag-input-component";
-import { Tag } from 'lucide-react';
-import Select from 'react-select'
 import './NoteForm.css'; // Import a CSS file for custom styles
 
 interface NoteFormProps {
