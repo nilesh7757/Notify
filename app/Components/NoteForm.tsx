@@ -10,10 +10,6 @@ interface NoteFormProps {
     onClose: () => void;
 }
 
-interface Tags {
-    tags: string[];
-    settags: React.Dispatch<React.SetStateAction<string[]>>;
-}
 
 const NoteForm: React.FC<NoteFormProps> = ({ onClose, isFormVisible }) => {
     const SendData = (e: React.FormEvent) => {
