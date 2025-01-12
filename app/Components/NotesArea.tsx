@@ -4,7 +4,6 @@ import { useGlobalProvider } from '../ContextApi'
 
 const NotesArea = () => {
   const { notesObject: { allNotes } } = useGlobalProvider();
-  
   // Check if `allNotes` is populated
 
   return (

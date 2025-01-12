@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+import { useState } from 'react';
 import {
   Card,
   CardContent,
@@ -6,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-
+import notesData from '../NotesData';
 interface Note {
   id: number;
   noteName: string;
@@ -29,7 +31,10 @@ const SingleNote: React.FC<SingleNoteProps> = ({ note }) => {
         <CardHeader>
           <div className='flex justify-between'>
             <CardTitle>{note.noteName}</CardTitle>
-            <HiDotsHorizontal />
+            <HiDotsHorizontal
+              className="cursor-pointer"
+              // onClick={() => deleteNote(note.id)}
+            />
           </div>
           <span className="text-sm text-gray-400">{note.dateCreation.toLocaleString()}</span>
         </CardHeader>
