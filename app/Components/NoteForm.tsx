@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { IoIosClose } from 'react-icons/io';
 import { Button } from '@/components/ui/button';
 import { TagsInput } from "react-tag-input-component";
-import { ToastContainer, toast } from 'react-toastify';// Import react-toastify for toasts
+import { toast } from 'react-toastify';// Import react-toastify for toasts
 import 'react-toastify/dist/ReactToastify.css';
 // import './NoteForm.css'; // Import a CSS file for custom styles
 import notesData from '../NotesData';

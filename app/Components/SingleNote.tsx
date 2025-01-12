@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { useState } from 'react';
 import {
   Card,
   CardContent,
@@ -8,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import notesData from '../NotesData';
 interface Note {
   id: number;
   noteName: string;
